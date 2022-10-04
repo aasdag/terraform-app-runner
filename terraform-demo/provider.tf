@@ -7,8 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "pgr301-2021-terraform-state"
-    key    = "glennbech/demo.state"
+    key    = "daaa005/demo.state"
     region = "eu-north-1"
   }
 }
-
